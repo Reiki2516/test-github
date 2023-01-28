@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #fcf6f5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+header {
+    text-align: center;
+    margin-top: 32px;
+}
+
+#title {
+    letter-spacing: 1rem;
+    margin: auto;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.baris {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+footer {
+    background-color: #02343f;
+    text-align: center;
+    color: #fcf6f5;
+    padding: 10px;
+}
